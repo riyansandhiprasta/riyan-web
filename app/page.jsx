@@ -62,14 +62,14 @@ export default function Home(){
                 Latest <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500"> Design </span>Projects
             </h1>
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
-                <a href="https://" className="p-3 hover:border border-slate-400 rounded-lg ease-in duration-300">
+                <a href="https://shared-manchego-047.notion.site/SewaMobil-id-Website-Rental-Mobil-6d610e3cee5f4704a042be7b34dfc558" className="p-3 hover:border border-slate-400 rounded-lg ease-in duration-300">
                     <img src="/SewaMobil.png" alt="" className="rounded-lg" />
                     <h3 className="text-slate-500 text=lg font-semibold mt-2">
                         SewaMobil.id - Study Case Project
                     </h3>
                     <p className="text-slate-400 text-sm">Study case to making a website design for car rental company. - Kampus Merdeka, 2022.</p>
                 </a>
-                <a href="https://" className="p-3 hover:border border-slate-400 rounded-lg duration-300">
+                <a href="https://shared-manchego-047.notion.site/Redesain-Website-Pemprov-Bali-aaecfd95305d456a9df3799180ad789a" className="p-3 hover:border border-slate-400 rounded-lg duration-300">
                     <img src="/BaliProv.png" alt="" className="rounded-lg" />
                     <h3 className="text-slate-500 text=lg font-semibold mt-2">
                         Pemprov Bali Web - Web Design Revamp
