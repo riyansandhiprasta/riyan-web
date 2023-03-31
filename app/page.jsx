@@ -50,8 +50,8 @@ export default function Home(){
                 </h1>
                 <div className="grid grid-cols-1">
                     <img src="/profile.png" alt="" className="bg-slate-500 w-40 lg:w-60 rounded-full mt-4 mb-4"/>
-                    <p className="">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est possimus quaerat, quidem enim molestias illum ab repudiandae quibusdam nemo necessitatibus cumque error autem debitis rem deleniti unde doloribus repellendus quod.
+                    <p className="text-md text-slate-600">
+                        A last year Computer Science student at Udayana University. I have strong interest in UI/UX Design, and also Web Development. Experienced for leadership, team management, and can work as a team or individual.
                     </p>
                 </div>
             </div>
@@ -67,14 +67,14 @@ export default function Home(){
                     <h3 className="text-slate-500 text=lg font-semibold mt-2">
                         SewaMobil.id - Study Case Project
                     </h3>
-                    <p className="text-slate-400 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, dolorum.</p>
+                    <p className="text-slate-400 text-sm">Study case to making a website design for car rental company. - Kampus Merdeka, 2022.</p>
                 </a>
                 <a href="https://" className="p-3 hover:border border-slate-400 rounded-lg duration-300">
                     <img src="/BaliProv.png" alt="" className="rounded-lg" />
                     <h3 className="text-slate-500 text=lg font-semibold mt-2">
                         Pemprov Bali Web - Web Design Revamp
                     </h3>
-                    <p className="text-slate-400 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, dolorum.</p>
+                    <p className="text-slate-400 text-sm">Study case to redesigning Bali Province Goverment Website. - Kampus Merdeka, 2022.</p>
                 </a>
             </div>
         </section>
