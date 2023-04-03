@@ -17,17 +17,17 @@ export default function Home(){
 
             <div className="flex gap-4 mt-4 text-slate-500 text-sm w-8/12">
                 <div>
-                    <a href="https://linkedin.com/in/riyansandhiprasta" className="flex gap-1 items-center hover:text-cyan-400">
+                    <a href="https://linkedin.com/in/riyansandhiprasta" target="_blank" className="flex gap-1 items-center hover:text-cyan-400">
                         <FaLinkedin/> linkedin
                     </a>
                 </div>
                 <div>
-                    <a href="https://github.com/riyansandhiprasta" className="flex gap-1 items-center hover:text-cyan-400">
+                    <a href="https://github.com/riyansandhiprasta" target="_blank" className="flex gap-1 items-center hover:text-cyan-400">
                         <FaGithub/> github
                     </a>
                 </div>
                 <div>
-                    <a href="https://instagram.com/riyansandhiprasta" className="flex gap-1 items-center hover:text-cyan-400">
+                    <a href="https://instagram.com/riyansandhiprasta" target="_blank" className="flex gap-1 items-center hover:text-cyan-400">
                         <FaInstagram/> instagram
                     </a>
                 </div>
@@ -60,7 +60,7 @@ export default function Home(){
                     </p>
                     <div className="flex gap-1 text-cyan-400 text-sm items-center w-32 mt-3 hover:text-slate-400">
                         <FaRegFile/>
-                        <a href="/">
+                        <a href="https://drive.google.com/file/d/1z3QnDgPewth4Xlmfv8FmV45__q6xUBhf/view?usp=sharing" target="_blank">
                             My Resume
                         </a>
                     </div>
@@ -80,14 +80,14 @@ export default function Home(){
             <div className="w-32 h-2 mb-4 bg-gradient-to-r from-cyan-500 to-purple-500"></div>
 
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-                <a href="https://shared-manchego-047.notion.site/SewaMobil-id-Website-Rental-Mobil-6d610e3cee5f4704a042be7b34dfc558" className="p-3 duration-100 hover:border border-slate-400 rounded-lg hover:shadow-lg">
+                <a href="https://shared-manchego-047.notion.site/SewaMobil-id-Website-Rental-Mobil-6d610e3cee5f4704a042be7b34dfc558" target="_blank" className="p-3 duration-100 hover:border border-slate-400 rounded-lg hover:shadow-lg">
                     <img src="/SewaMobil.png" alt="" className="rounded-lg" />
                     <h3 className="text-slate-500 text=lg font-semibold mt-2">
                         SewaMobil.id - UI/UX Study Case
                     </h3>
                     <p className="text-slate-400 text-sm">Study case to making a website design for car rental company. - Kampus Merdeka, 2022.</p>
                 </a>
-                <a href="https://shared-manchego-047.notion.site/Redesain-Website-Pemprov-Bali-aaecfd95305d456a9df3799180ad789a" className="p-3 duration-100 hover:border border-slate-400 rounded-lg hover:shadow-lg">
+                <a href="https://shared-manchego-047.notion.site/Redesain-Website-Pemprov-Bali-aaecfd95305d456a9df3799180ad789a" target="_blank" className="p-3 duration-100 hover:border border-slate-400 rounded-lg hover:shadow-lg">
                     <img src="/BaliProv.png" alt="" className="rounded-lg" />
                     <h3 className="text-slate-500 text=lg font-semibold mt-2">
                         Pemprov Bali Web - Design Revamp
@@ -138,16 +138,16 @@ export default function Home(){
                     Keep get in touch
                 </h1>
                 <div className="flex justify-center gap-6 text-4xl text-purple-400 mt-2">
-                    <a href="https://github.com/riyansandhiprasta" className="hover:text-cyan-500 duration-150 hover:-translate-y-1">
+                    <a href="https://github.com/riyansandhiprasta" target="_blank" className="hover:text-cyan-500 duration-150 hover:-translate-y-1">
                         <FaGithub/>
                     </a>
-                    <a href="https://linkedin.com/in/riyansandhiprasta" className="hover:text-cyan-500 duration-150 hover:-translate-y-1">
+                    <a href="https://linkedin.com/in/riyansandhiprasta" target="_blank" className="hover:text-cyan-500 duration-150 hover:-translate-y-1">
                         <FaLinkedin/>
                     </a>
-                    <a href="https://behance.net/riyansandhiprasta" className="hover:text-cyan-500 duration-150 hover:-translate-y-1">
+                    <a href="https://behance.net/riyansandhiprasta" target="_blank" className="hover:text-cyan-500 duration-150 hover:-translate-y-1">
                         <FaBehance/>
                     </a>
-                    <a href="https://instagram.com/riyansandhiprasta" className="hover:text-cyan-500 duration-150 hover:-translate-y-1">
+                    <a href="https://instagram.com/riyansandhiprasta" target="_blank" className="hover:text-cyan-500 duration-150 hover:-translate-y-1">
                         <FaInstagram/>
                     </a>
                 </div>
