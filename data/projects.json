@@ -1,0 +1,74 @@
+[
+  {
+    "id": 8,
+    "title": "Murphy Cobb",
+    "description": "Build fast React apps",
+    "live": false,
+    "thumbnail": "/projects/murphy.png",
+    "url": "https://murphycobb.com"
+  },
+  {
+    "id": 7,
+    "title": "Bali Beach Convention Center",
+    "description": "Build fast React apps",
+    "live": true,
+    "thumbnail": "/projects/balibeach.jpg",
+    "url": "https://balibeachconventioncenter.com"
+  },
+  {
+    "id": 6,
+    "title": "The Lighthouse Consultancy",
+    "description": "Build fast React apps",
+    "live": false,
+    "thumbnail": "/projects/lighthouse.jpg",
+    "url": "https://thelighthouseconsultancy.com"
+  },
+  {
+    "id": 0,
+    "title": "The Colony Hotel Bali",
+    "description": "Build fast React apps",
+    "live": true,
+    "thumbnail": "/projects/colony.jpg",
+    "url": "https://thecolonyhotelbali.com"
+  },
+  {
+    "id": 1,
+    "title": "The Sumba Foundation",
+    "description": "Build fast React apps",
+    "live": true,
+    "thumbnail": "/sumba-cover.jpg",
+    "url": "https://sumbafoundation.org"
+  },
+  {
+    "id": 2,
+    "title": "Edgelight",
+    "description": "Core concepts and hooks",
+    "live": true,
+    "thumbnail": "/edgelight-cover.jpg",
+    "url": "https://edgelight.com.au"
+  },
+  {
+    "id": 3,
+    "title": "Fabrice Abbey",
+    "description": "Core concepts and hooks",
+    "live": true,
+    "thumbnail": "/fabrice-cover.jpg",
+    "url": "https://fabriceabbey.com"
+  },
+  {
+    "id": 4,
+    "title": "Mirah Developments",
+    "description": "Core concepts and hooks",
+    "live": true,
+    "thumbnail": "/mirah-cover.jpg",
+    "url": "https://mirahdevelopments.com"
+  },
+  {
+    "id": 5,
+    "title": "Monkey Forest",
+    "description": "Core concepts and hooks",
+    "live": true,
+    "thumbnail": "/monkey-forest-cover.jpg",
+    "url": "https://monkeyforestubud.com"
+  }
+]

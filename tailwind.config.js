@@ -14,7 +14,12 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['var(--font-inter)', ...fontFamily.sans],
+        display: ['var(--font-gilda)', "serif"]
       },
+      colors: {
+        bgDark: 'var(--color-bg-dark)',
+        bgLight: 'var(--color-bg-light)',
+      }
     },
   },
   plugins: [],
