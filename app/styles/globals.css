@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg-dark: #1C1C1C;
+  --color-bg-light: #f1f1f1;
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    html.light body, html.light header {
+        background: var(--color-bg-light);
+        color: var(--color-bg-dark);
+        transition: all 400ms ease;
+    }
+    
+    a img {
+        transition: filter 400ms ease;
+    }
+    html.light a img, html.light .elm-with-bg {
+        filter: invert();
+        transition: filter 400ms ease;
+    }
+
+    html.dark body, html.dark header {
+        background: var(--color-bg-dark);
+        color: var(--color-bg-light);
+        transition: all 400ms ease;
+    }
+
+    /* .themes-toggle {
+        transition: transform 500ms ease;
+    } */
+
+    a.link, span.link {
+        text-decoration: underline;
+        text-underline-offset: 4px;
+        width: max-content;
+    }
+
+    .bg-header {
+        background: rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(10px);
+    }
+}
+
+@layer components {
+    .page-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 64px;
+
+        @media screen  and (max-width: 620px) {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    .project-card {
+        width: calc(50% - 50px);
+
+        @media screen  and (max-width: 620px) {
+            width: 100%;
+        }
+    }
+
+    .card-image {
+        position: relative;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 558 / 360;
+    }
+
+    .hand-icon {
+        position: absolute;
+        left: 8px;
+        animation: waving 3s ease infinite;
+    }
+
+    @keyframes waving {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        15% {
+            transform: rotate(12deg);
+        }
+
+        30% {
+            transform: rotate(-10deg);
+        }
+
+        45% {
+            transform: rotate(8deg);
+        }
+
+        60% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+
+    .typing {
+        width: 5ch; /* number of characters */
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 2px solid currentColor;
+
+        animation:
+            typing 3s steps(16),
+            blink 0.8s step-end infinite;
+        }
+
+        @keyframes typing {
+        from {
+            width: 0;
+        }
+        }
+
+        @keyframes blink {
+        50% {
+            border-color: transparent;
+        }
+    }
+
+}

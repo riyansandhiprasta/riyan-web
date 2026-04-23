@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Sewa Mobile (Case Study)",
+    "description": "",
+    "live": true,
+    "thumbnail": "/SewaMobil.png",
+    "url": "https://shared-manchego-047.notion.site/SewaMobil-id-Website-Rental-Mobil-6d610e3cee5f4704a042be7b34dfc558"
+  },
+  {
+    "id": 2,
+    "title": "Bali Province Website (Revamp)",
+    "description": "",
+    "live": true,
+    "thumbnail": "/BaliProv.png",
+    "url": "https://shared-manchego-047.notion.site/Redesain-Website-Pemerintah-Provinsi-Bali-aaecfd95305d456a9df3799180ad789a"
+  },
+  {
+    "id": 3,
+    "title": "Podcast App (Exploration Design)",
+    "description": "",
+    "live": false,
+    "thumbnail": "/siniar.png",
+    "url": "https://dribbble.com/shots/18327820-Siniar-App-Listen-to-Your-Favorite-Podcast"
+  },
+  {
+    "id": 4,
+    "title": "NFT Market App (Exploration Design)",
+    "description": "",
+    "live": false,
+    "thumbnail": "/tokonft.png",
+    "url": "https://dribbble.com/shots/18267185-TokoNFT-World-of-Digital-Art"
+  }
+]

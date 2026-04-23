@@ -1,5 +1,9 @@
-import '../src/styles/globals.css';
-import { Inter } from 'next/font/google'
+import './styles/globals.css';
+import { Inter, Gilda_Display } from 'next/font/google';
+import 'sal.js/dist/sal.css';
+import { ThemeProvider } from 'next-themes';
+import SalInit from './providers/sal';
+import ThemeToggle from './components/ToggleButton';
 
 export const metadata = {
   title: 'Riyan Sandhiprasta',
@@ -10,32 +14,47 @@ const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
 })
+
+const gilda = Gilda_Display ({
+    subsets: ['latin'],
+    weight: '400',
+    style: 'normal',
+    variable: '--font-gilda'
+})
  
 export default function RootLayout({ children }) {
  return (
-    <html lang="en">
-      <body className={`${inter.variable} font-sans px-4 md:px-20 lg:px-40`}>
-        <div className='navbar flex justify-between items-center py-3 backdrop-blur-md sticky top-0 z-20'>
-          <div className='nav-list'>
-            <ul className='flex justify-start gap-4 text-sm text-slate-600'>
-              <li>
-                <a href="#intro">Home</a>
-              </li>
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-               <a href="#projects">Projects</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <img src="/memoji1.png" alt="" className='w-10' />
-          </div>
-        </div>
+    <html lang="en" className={`${inter.variable} ${gilda.variable}`} suppressHydrationWarning>
+      <body className='font-sans overflow-x-hidden'>
+        <ThemeProvider
+            attribute='class'
+            defaultTheme='system'
+            enableSystem
+        >
+            <header className= 'font-display navbar flex justify-center items-center py-8 w-full fixed top-0 left-0 z-20'>
+                <div className='nav-list w-full'>
+                    <ul className='flex justify-center gap-6 md:gap-[60px] text-md md:text-xl'>
+                    <li>
+                        <a href="#intro">Home</a>
+                    </li>
+                    <li>
+                        <a href="#projects-web">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#footer">Contact</a>
+                    </li>
+                    <li>
+                        <ThemeToggle/>
+                    </li>
+                    </ul>
+                </div>
+            </header>
 
-        {children}
-
+            <div className="page-wrapper">
+                <SalInit/>
+                {children}
+            </div>
+        </ThemeProvider>
       </body>
     </html>
   )
